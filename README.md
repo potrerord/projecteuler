@@ -17,6 +17,8 @@ The current naming convention I've landed on is `"pe####".extension`, which stan
 
 The first several solutions come from early 2023, before I had my GitHub set up and before I had much programming experience. I plan on revisiting these from time to time as I develop.
 
+One new idea I've implemented is the inclusion of Markdown files for my trains of thought, since I want to be able to return to an in-progress solution without having to start from scratch in terms of deciphering where my original thought progress was.
+
 ## About Project Euler
 Visit the [About](https://projecteuler.net/about) page of the Project Euler website for additional information as well as a donation link to help with their running costs.
 
