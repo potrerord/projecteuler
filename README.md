@@ -7,6 +7,12 @@ My attempts and solutions to the first 100 problems from [Project Euler](https:/
 
 The current naming convention I've landed on is `"pe####".extension`, which stands for "Project Euler [problem number]".
 
+| Directory/File  | Description                                                                                              |
+| --------------- | -------------------------------------------------------------------------------------------------------- |
+| `/`             | Contains the current version of each solution.                                                           |
+| `/-template.py` | A Python template I created a while back to measure the runtime of iterative attempts written in Python. |
+| `attempts/`     | Contains previous versions, numbered with "-#".                                                          |
+
 ## Context
 
 The first several solutions come from early 2023, before I had my GitHub set up and before I had much programming experience. I plan on revisiting these from time to time as I develop.
