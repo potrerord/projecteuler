@@ -56,7 +56,7 @@ def main() -> None:
         print(f"{POWER_BASE}^{i}: ".rjust(RIGHT_ALIGN), end="")
 
         # Print the final digits in the same line.
-        print(f"{final_digits_list[i]}".rjust(FINAL_DIGIT_COUNT))
+        print(f"{final_digits_list[i]}".zfill(FINAL_DIGIT_COUNT))
 
 
 def make_final_digits_list(int_list: list[int],
