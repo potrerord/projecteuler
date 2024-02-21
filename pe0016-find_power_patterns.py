@@ -28,8 +28,11 @@ RIGHT_ALIGN: int = 6
 
 
 def main() -> None:
-    print("Note - max system int:")
-    print(f"2^{int(math.log2(sys.maxsize)) + 1} - 1")
+
+    print()
+    print("INFO:")
+    print(f"Base: {POWER_BASE}")
+    print(f"Final digit count: {FINAL_DIGIT_COUNT}")
     print()
 
     # List of powers of constant base.
@@ -43,6 +46,8 @@ def main() -> None:
     i: int
     for i in range(len(final_digits_list)):
         # Print a separator if a repeat is found.
+        # Interesting side note - the patterns only seem to be relevant
+        # for FINAL_DIGIT_COUNT + 1. Will investigate later.
         for j in range(FINAL_DIGIT_COUNT + 1):
             if final_digits_list[i] == final_digits_list[j]:
                 print(f"---- pattern: 2^{j} ----")
