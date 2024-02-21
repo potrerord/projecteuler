@@ -1,0 +1,17 @@
+# Anthony Narag
+# 2024-02-21-wed
+# .gitignore file for projecteuler
+
+# Ignore PowerPoint files from class.
+*.pptx
+*.pdf
+
+# Ignore compiled files in a build/ directory.
+build/
+
+# Ignore debug symbols folders.
+*.dSYM/
+
+# Python
+__pycache__/
+.venv/
